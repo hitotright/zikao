@@ -3,5 +3,6 @@ cmake_minimum_required (VERSION 2.8)
 # 项目信息
 project (data_structure)
 # 指定生成目标
-add_executable(string string.cpp)
 add_executable(queue queue.cpp)
+add_executable(stack stack.cpp)
+add_executable(string string.cpp)
